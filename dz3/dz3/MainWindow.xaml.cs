@@ -49,10 +49,10 @@ namespace dz3
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string RUb = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
-            string ENGb = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            string RUs = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-            string ENGs = "abcdefghijklmnopqrstuvwxyz";
+            string RUb = " АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+            string ENGb = " ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            string RUs = " абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+            string ENGs = " abcdefghijklmnopqrstuvwxyz";
             string bb = RUb + ENGb + RUs + ENGs;
 
             string end = "";    
